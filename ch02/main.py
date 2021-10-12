@@ -1,3 +1,4 @@
+from trie import *
 from utility import *
 from segment_algr import *
 from speed_benchmark import *
@@ -27,3 +28,20 @@ for sentence in test_list:
 evaluate_speed(forward_segment, "江西鄱阳湖干枯，中国最大淡水湖变成草原", dic, 10000)
 evaluate_speed(backward_segment, "江西鄱阳湖干枯，中国最大淡水湖变成草原", dic, 10000)
 evaluate_speed(bidirectional_segment, "江西鄱阳湖干枯，中国最大淡水湖变成草原", dic, 10000)
+
+trie = Trie()
+# 增
+trie['自然'] = 'nature'
+trie['自然人'] = 'human'
+trie['自然语言'] = 'language'
+trie['自语'] = 'talk to oneself'
+trie['入门'] = 'introduction'
+print('自然' in trie)
+# 删
+trie['自然'] = None
+print('自然' not in trie)
+# 改
+trie['自然语言'] = 'human language'
+print(trie['自然语言'] == 'human language')
+# 查
+print(trie['入门'] == 'introduction')
