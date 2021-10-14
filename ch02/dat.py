@@ -1,4 +1,4 @@
-from jpype import JClass
+from pyhanlp import *
 
 
 class DoubleArrayTrie(object):
@@ -6,10 +6,11 @@ class DoubleArrayTrie(object):
         m = JClass('java.util.TreeMap')()
         for k, v in dic.items():
             m[k] = v
-        dat = JClass('com.hankcs.hanlp.collection.trie.DoubleArrayTrie')(m)
-        self.base = dat.base
-        self.check = dat.check
-        self.value = dat.v
+        DoubleArrayTrie = JClass('com.hankcs.hanlp.collection.trie.DoubleArrayTrie')
+        dat = DoubleArrayTrie(m)
+        self.base = dat.getBase()
+        self.check = dat.getCheck()
+        self.value = dat.getValueArray([''])
 
     @staticmethod
     def char_hash(c) -> int:
@@ -43,3 +44,17 @@ class DoubleArrayTrie(object):
             index = -n - 1
             return self.value[index]
         return None
+
+
+if __name__ == '__main__':
+    dic = {
+        '自然': 'nature',
+        '自然人': 'human',
+        '自然语言': 'language',
+        '自语': 'talk to oneself',
+        '入门': 'introduction',
+    }
+    dat = DoubleArrayTrie(dic)
+    print(dat['自然'] == 'nature')
+    print(dat['自然语言'] == 'language')
+    print(dat['不存在'] is None)
