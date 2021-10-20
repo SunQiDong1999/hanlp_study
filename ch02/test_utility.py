@@ -1,6 +1,3 @@
-# -*- coding:utf-8 -*-
-# Author：hankcs
-# Date: 2018-05-23 17:35
 import zipfile
 import os
 
