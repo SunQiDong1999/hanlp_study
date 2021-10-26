@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74a8de4f-f1a4-46be-86a7-3f64997201f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adjust_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_custom_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/japanese_segment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_corpus_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_corpus_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eval_bigram_cws.py" beforeDir="false" afterPath="$PROJECT_DIR$/eval_bigram_cws.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngram_segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ngram_segment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_utility.py" afterDir="false" />
-    </list>
+    <list default="true" id="74a8de4f-f1a4-46be-86a7-3f64997201f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,6 +184,7 @@
       <workItem from="1635159038057" duration="1464000" />
       <workItem from="1635160967664" duration="4702000" />
       <workItem from="1635211688131" duration="4293000" />
+      <workItem from="1635221458214" duration="17000" />
     </task>
     <servers />
   </component>
